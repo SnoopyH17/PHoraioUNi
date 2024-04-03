@@ -1,0 +1,7 @@
+{
+  "name": "appHorarioUni",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

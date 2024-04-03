@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Horario
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab sadf</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <ion-item *ngFor="let horario of horarios">
+        <ion-label>Aula {{ horario.id_aula }}</ion-label>
+        <ion-label>Dia: {{ horario.dia_semana }}</ion-label>
+        <ion-label>Inicio: {{ horario.hora_inicio }}</ion-label>
+        <ion-label>Fin: {{ horario.hora_fin }}</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+  
+</ion-content>
